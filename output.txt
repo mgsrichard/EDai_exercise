@@ -1,0 +1,1 @@
+<bound method RegressionResults.summary of <statsmodels.regression.linear_model.OLSResults object at 0x00000266A239CDC8>>
