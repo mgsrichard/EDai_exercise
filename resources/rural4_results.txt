@@ -1,0 +1,313 @@
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Employment Growth Rate   R-squared:                       0.336
+Model:                                OLS   Adj. R-squared:                  0.243
+Method:                     Least Squares   F-statistic:                     3.622
+Date:                    Sat, 28 May 2022   Prob (F-statistic):           1.09e-18
+Time:                            23:56:12   Log-Likelihood:                -2069.5
+No. Observations:                     629   AIC:                             4295.
+Df Residuals:                         551   BIC:                             4642.
+Df Model:                              77                                         
+Covariance Type:                nonrobust                                         
+======================================================================================================================
+                                                         coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------
+FIPS                                               -2.398e-06   2.86e-05     -0.084      0.933   -5.86e-05    5.38e-05
+Deaths                                                -0.0025      0.002     -1.393      0.164      -0.006       0.001
+Years of Potential Life Lost Rate                     -0.0008      0.000     -1.725      0.085      -0.002       0.000
+% Fair or Poor Health                                  0.1939      0.359      0.540      0.589      -0.511       0.899
+Average Number of Physically Unhealthy Days           -0.6363      3.170     -0.201      0.841      -6.863       5.590
+Average Number of Mentally Unhealthy Days             -2.3515      2.746     -0.856      0.392      -7.746       3.043
+% Low Birthweight                                      0.5176      0.287      1.802      0.072      -0.046       1.082
+% Smokers                                              0.0181      0.278      0.065      0.948      -0.527       0.563
+% Adults with Obesity                                 -0.2164      0.076     -2.831      0.005      -0.367      -0.066
+Food Environment Index                                -4.3048      3.514     -1.225      0.221     -11.208       2.598
+% Physically Inactive                                 -0.1788      0.082     -2.170      0.030      -0.341      -0.017
+% With Access to Exercise Opportunities                0.0343      0.019      1.844      0.066      -0.002       0.071
+% Excessive Drinking                                  -0.8117      0.264     -3.077      0.002      -1.330      -0.294
+% Driving Deaths with Alcohol Involvement              0.0161      0.026      0.621      0.535      -0.035       0.067
+Chlamydia Rate                                        -0.0005      0.003     -0.173      0.863      -0.007       0.006
+Teen Birth Rate                                        0.0429      0.053      0.815      0.415      -0.061       0.146
+% Uninsured 1                                         -0.5399      0.778     -0.694      0.488      -2.067       0.987
+Preventable Hospitalization Rate                       0.0002      0.000      0.835      0.404      -0.000       0.001
+% With Annual Mammogram                                0.0664      0.067      0.990      0.323      -0.065       0.198
+% Vaccinated                                           0.0477      0.048      1.003      0.316      -0.046       0.141
+High School Graduation Rate                           -0.1836      0.067     -2.729      0.007      -0.316      -0.051
+% Some College                                         0.0302      0.059      0.513      0.608      -0.085       0.146
+# Unemployed                                          -0.0006      0.003     -0.181      0.856      -0.007       0.006
+Labor Force                                           -0.0007      0.000     -4.169      0.000      -0.001      -0.000
+% Unemployed                                          -0.9167      0.416     -2.202      0.028      -1.734      -0.099
+% Children in Poverty                                  0.1092      0.108      1.015      0.311      -0.102       0.321
+80th Percentile Income                                -0.0001      0.000     -1.132      0.258      -0.000     9.5e-05
+20th Percentile Income                                 0.0005      0.000      1.044      0.297      -0.000       0.001
+Income Ratio                                           0.8391      1.912      0.439      0.661      -2.916       4.594
+% Single-Parent Households                             0.1071      0.058      1.850      0.065      -0.007       0.221
+Social Association Rate                                0.0543      0.090      0.603      0.547      -0.123       0.231
+Violent Crime Rate                                     0.0004      0.003      0.175      0.861      -0.005       0.005
+Injury Death Rate                                      0.0151      0.025      0.595      0.552      -0.035       0.065
+Average Daily PM2.5                                   -0.0692      0.376     -0.184      0.854      -0.808       0.670
+Presence of Water Violation                        -7.681e-12   1.81e-11     -0.425      0.671   -4.32e-11    2.78e-11
+% Severe Housing Problems                              0.7789      0.181      4.308      0.000       0.424       1.134
+% Drive Alone to Work                                 -0.1612      0.087     -1.858      0.064      -0.332       0.009
+% Long Commute - Drives Alone                          0.0647      0.042      1.557      0.120      -0.017       0.146
+Life Expectancy                                       -1.5532      0.546     -2.846      0.005      -2.625      -0.481
+Age-Adjusted Death Rate                               -0.0330      0.012     -2.773      0.006      -0.056      -0.010
+% Frequent Physical Distress                          -0.4589      0.877     -0.523      0.601      -2.181       1.263
+% Frequent Mental Distress                            -0.3972      0.869     -0.457      0.648      -2.103       1.309
+% Adults with Diabetes                                -0.0113      0.089     -0.127      0.899      -0.187       0.164
+HIV Prevalence Rate                                   -0.0005      0.004     -0.131      0.896      -0.009       0.008
+% Food Insecure                                       -0.5692      0.654     -0.870      0.385      -1.854       0.716
+% Limited Access to Healthy Foods                     -0.4944      0.319     -1.548      0.122      -1.122       0.133
+Motor Vehicle Mortality Rate                           0.0873      0.064      1.359      0.175      -0.039       0.214
+% Insufficient Sleep                                   0.3317      0.176      1.887      0.060      -0.014       0.677
+% Uninsured 2                                          0.5381      0.577      0.932      0.352      -0.596       1.672
+% Uninsured 3                                         -0.1420      0.330     -0.430      0.667      -0.790       0.506
+Average Grade Performance 1                            2.7093      2.515      1.077      0.282      -2.231       7.649
+Average Grade Performance 2                           -2.4705      2.135     -1.157      0.248      -6.665       1.724
+Median Household Income                                0.0002      0.000      1.711      0.088    -3.3e-05       0.000
+% Enrolled in Free or Reduced Lunch                    0.0209      0.037      0.569      0.570      -0.051       0.093
+Segregation Index 2                                    0.0040      0.028      0.141      0.888      -0.051       0.059
+Suicide Rate (Age-Adjusted)                           -0.0144      0.077     -0.187      0.851      -0.165       0.137
+Firearm Fatalities Rate                                0.1098      0.086      1.269      0.205      -0.060       0.280
+Average Traffic Volume per Meter of Major Roadways    -0.0063      0.010     -0.649      0.517      -0.025       0.013
+# Homeowners                                          -0.0007      0.000     -2.406      0.016      -0.001      -0.000
+% Homeowners                                           0.1522      0.097      1.573      0.116      -0.038       0.342
+# Households with Severe Cost Burden                  -0.0023      0.001     -1.980      0.048      -0.005   -1.84e-05
+% Severe Housing Cost Burden                           0.3191      0.223      1.429      0.153      -0.119       0.758
+Population                                             0.0007      0.000      5.231      0.000       0.000       0.001
+% less than 18 years of age                           -0.2065      0.241     -0.857      0.392      -0.680       0.267
+% 65 and over                                         -0.2827      0.207     -1.366      0.173      -0.689       0.124
+% Black                                                1.1530      0.505      2.282      0.023       0.161       2.145
+% American Indian & Alaska Native                      1.4618      0.570      2.562      0.011       0.341       2.582
+% Asian                                                0.7407      0.952      0.778      0.437      -1.130       2.611
+% Native Hawaiian/Other Pacific Islander              -2.1018      1.756     -1.197      0.232      -5.552       1.348
+% Hispanic                                             1.2382      0.474      2.614      0.009       0.308       2.169
+% Non-Hispanic White                                   1.3746      0.500      2.747      0.006       0.392       2.357
+% Not Proficient in English                           -0.5675      0.376     -1.510      0.132      -1.306       0.171
+% Female                                              -0.3689      0.214     -1.722      0.086      -0.790       0.052
+% Rural                                               -0.0242      0.025     -0.961      0.337      -0.074       0.025
+Primary Care Physicians Ratio                       4.662e-05      0.000      0.447      0.655      -0.000       0.000
+Dentist Ratio                                          0.0001      0.000      0.881      0.379      -0.000       0.000
+Mental Health Provider Ratio                        9.593e-05      0.000      0.673      0.501      -0.000       0.000
+Other Primary Care Provider Ratio                  -7.674e-05      0.000     -0.448      0.654      -0.000       0.000
+Class                                                 21.5927     17.445      1.238      0.216     -12.673      55.859
+==============================================================================
+Omnibus:                      106.875   Durbin-Watson:                   1.948
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              461.496
+Skew:                           0.700   Prob(JB):                    6.13e-101
+Kurtosis:                       6.956   Cond. No.                     1.18e+16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 5.95e-20. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Employment Growth Rate   R-squared:                       0.336
+Model:                                OLS   Adj. R-squared:                  0.243
+Method:                     Least Squares   F-statistic:                     3.622
+Date:                    Sun, 29 May 2022   Prob (F-statistic):           1.09e-18
+Time:                            00:03:47   Log-Likelihood:                -2069.5
+No. Observations:                     629   AIC:                             4295.
+Df Residuals:                         551   BIC:                             4642.
+Df Model:                              77                                         
+Covariance Type:                nonrobust                                         
+======================================================================================================================
+                                                         coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------
+FIPS                                               -2.398e-06   2.86e-05     -0.084      0.933   -5.86e-05    5.38e-05
+Deaths                                                -0.0025      0.002     -1.393      0.164      -0.006       0.001
+Years of Potential Life Lost Rate                     -0.0008      0.000     -1.725      0.085      -0.002       0.000
+% Fair or Poor Health                                  0.1939      0.359      0.540      0.589      -0.511       0.899
+Average Number of Physically Unhealthy Days           -0.6363      3.170     -0.201      0.841      -6.863       5.590
+Average Number of Mentally Unhealthy Days             -2.3515      2.746     -0.856      0.392      -7.746       3.043
+% Low Birthweight                                      0.5176      0.287      1.802      0.072      -0.046       1.082
+% Smokers                                              0.0181      0.278      0.065      0.948      -0.527       0.563
+% Adults with Obesity                                 -0.2164      0.076     -2.831      0.005      -0.367      -0.066
+Food Environment Index                                -4.3048      3.514     -1.225      0.221     -11.208       2.598
+% Physically Inactive                                 -0.1788      0.082     -2.170      0.030      -0.341      -0.017
+% With Access to Exercise Opportunities                0.0343      0.019      1.844      0.066      -0.002       0.071
+% Excessive Drinking                                  -0.8117      0.264     -3.077      0.002      -1.330      -0.294
+% Driving Deaths with Alcohol Involvement              0.0161      0.026      0.621      0.535      -0.035       0.067
+Chlamydia Rate                                        -0.0005      0.003     -0.173      0.863      -0.007       0.006
+Teen Birth Rate                                        0.0429      0.053      0.815      0.415      -0.061       0.146
+% Uninsured 1                                         -0.5399      0.778     -0.694      0.488      -2.067       0.987
+Preventable Hospitalization Rate                       0.0002      0.000      0.835      0.404      -0.000       0.001
+% With Annual Mammogram                                0.0664      0.067      0.990      0.323      -0.065       0.198
+% Vaccinated                                           0.0477      0.048      1.003      0.316      -0.046       0.141
+High School Graduation Rate                           -0.1836      0.067     -2.729      0.007      -0.316      -0.051
+% Some College                                         0.0302      0.059      0.513      0.608      -0.085       0.146
+# Unemployed                                          -0.0006      0.003     -0.181      0.856      -0.007       0.006
+Labor Force                                           -0.0007      0.000     -4.169      0.000      -0.001      -0.000
+% Unemployed                                          -0.9167      0.416     -2.202      0.028      -1.734      -0.099
+% Children in Poverty                                  0.1092      0.108      1.015      0.311      -0.102       0.321
+80th Percentile Income                                -0.0001      0.000     -1.132      0.258      -0.000     9.5e-05
+20th Percentile Income                                 0.0005      0.000      1.044      0.297      -0.000       0.001
+Income Ratio                                           0.8391      1.912      0.439      0.661      -2.916       4.594
+% Single-Parent Households                             0.1071      0.058      1.850      0.065      -0.007       0.221
+Social Association Rate                                0.0543      0.090      0.603      0.547      -0.123       0.231
+Violent Crime Rate                                     0.0004      0.003      0.175      0.861      -0.005       0.005
+Injury Death Rate                                      0.0151      0.025      0.595      0.552      -0.035       0.065
+Average Daily PM2.5                                   -0.0692      0.376     -0.184      0.854      -0.808       0.670
+Presence of Water Violation                        -7.681e-12   1.81e-11     -0.425      0.671   -4.32e-11    2.78e-11
+% Severe Housing Problems                              0.7789      0.181      4.308      0.000       0.424       1.134
+% Drive Alone to Work                                 -0.1612      0.087     -1.858      0.064      -0.332       0.009
+% Long Commute - Drives Alone                          0.0647      0.042      1.557      0.120      -0.017       0.146
+Life Expectancy                                       -1.5532      0.546     -2.846      0.005      -2.625      -0.481
+Age-Adjusted Death Rate                               -0.0330      0.012     -2.773      0.006      -0.056      -0.010
+% Frequent Physical Distress                          -0.4589      0.877     -0.523      0.601      -2.181       1.263
+% Frequent Mental Distress                            -0.3972      0.869     -0.457      0.648      -2.103       1.309
+% Adults with Diabetes                                -0.0113      0.089     -0.127      0.899      -0.187       0.164
+HIV Prevalence Rate                                   -0.0005      0.004     -0.131      0.896      -0.009       0.008
+% Food Insecure                                       -0.5692      0.654     -0.870      0.385      -1.854       0.716
+% Limited Access to Healthy Foods                     -0.4944      0.319     -1.548      0.122      -1.122       0.133
+Motor Vehicle Mortality Rate                           0.0873      0.064      1.359      0.175      -0.039       0.214
+% Insufficient Sleep                                   0.3317      0.176      1.887      0.060      -0.014       0.677
+% Uninsured 2                                          0.5381      0.577      0.932      0.352      -0.596       1.672
+% Uninsured 3                                         -0.1420      0.330     -0.430      0.667      -0.790       0.506
+Average Grade Performance 1                            2.7093      2.515      1.077      0.282      -2.231       7.649
+Average Grade Performance 2                           -2.4705      2.135     -1.157      0.248      -6.665       1.724
+Median Household Income                                0.0002      0.000      1.711      0.088    -3.3e-05       0.000
+% Enrolled in Free or Reduced Lunch                    0.0209      0.037      0.569      0.570      -0.051       0.093
+Segregation Index 2                                    0.0040      0.028      0.141      0.888      -0.051       0.059
+Suicide Rate (Age-Adjusted)                           -0.0144      0.077     -0.187      0.851      -0.165       0.137
+Firearm Fatalities Rate                                0.1098      0.086      1.269      0.205      -0.060       0.280
+Average Traffic Volume per Meter of Major Roadways    -0.0063      0.010     -0.649      0.517      -0.025       0.013
+# Homeowners                                          -0.0007      0.000     -2.406      0.016      -0.001      -0.000
+% Homeowners                                           0.1522      0.097      1.573      0.116      -0.038       0.342
+# Households with Severe Cost Burden                  -0.0023      0.001     -1.980      0.048      -0.005   -1.84e-05
+% Severe Housing Cost Burden                           0.3191      0.223      1.429      0.153      -0.119       0.758
+Population                                             0.0007      0.000      5.231      0.000       0.000       0.001
+% less than 18 years of age                           -0.2065      0.241     -0.857      0.392      -0.680       0.267
+% 65 and over                                         -0.2827      0.207     -1.366      0.173      -0.689       0.124
+% Black                                                1.1530      0.505      2.282      0.023       0.161       2.145
+% American Indian & Alaska Native                      1.4618      0.570      2.562      0.011       0.341       2.582
+% Asian                                                0.7407      0.952      0.778      0.437      -1.130       2.611
+% Native Hawaiian/Other Pacific Islander              -2.1018      1.756     -1.197      0.232      -5.552       1.348
+% Hispanic                                             1.2382      0.474      2.614      0.009       0.308       2.169
+% Non-Hispanic White                                   1.3746      0.500      2.747      0.006       0.392       2.357
+% Not Proficient in English                           -0.5675      0.376     -1.510      0.132      -1.306       0.171
+% Female                                              -0.3689      0.214     -1.722      0.086      -0.790       0.052
+% Rural                                               -0.0242      0.025     -0.961      0.337      -0.074       0.025
+Primary Care Physicians Ratio                       4.662e-05      0.000      0.447      0.655      -0.000       0.000
+Dentist Ratio                                          0.0001      0.000      0.881      0.379      -0.000       0.000
+Mental Health Provider Ratio                        9.593e-05      0.000      0.673      0.501      -0.000       0.000
+Other Primary Care Provider Ratio                  -7.674e-05      0.000     -0.448      0.654      -0.000       0.000
+Class                                                 21.5927     17.445      1.238      0.216     -12.673      55.859
+==============================================================================
+Omnibus:                      106.875   Durbin-Watson:                   1.948
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              461.496
+Skew:                           0.700   Prob(JB):                    6.13e-101
+Kurtosis:                       6.956   Cond. No.                     1.18e+16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 5.95e-20. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Employment Growth Rate   R-squared:                       0.215
+Model:                                OLS   Adj. R-squared:                  0.127
+Method:                     Least Squares   F-statistic:                     2.442
+Date:                    Sun, 29 May 2022   Prob (F-statistic):           8.42e-10
+Time:                            00:10:07   Log-Likelihood:                -2953.0
+No. Observations:                     786   AIC:                             6066.
+Df Residuals:                         706   BIC:                             6439.
+Df Model:                              79                                         
+Covariance Type:                nonrobust                                         
+======================================================================================================================
+                                                         coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------
+const                                               -101.3365     69.188     -1.465      0.143    -237.176      34.503
+FIPS                                                5.466e-07   3.44e-05      0.016      0.987    -6.7e-05    6.81e-05
+Deaths                                                -0.0013      0.001     -1.092      0.275      -0.004       0.001
+Years of Potential Life Lost Rate                     -0.0001      0.000     -0.348      0.728      -0.001       0.001
+% Fair or Poor Health                                  0.3109      0.436      0.713      0.476      -0.545       1.167
+Average Number of Physically Unhealthy Days            1.2928      4.476      0.289      0.773      -7.495      10.080
+Average Number of Mentally Unhealthy Days             -3.2169      3.645     -0.883      0.378     -10.373       3.939
+% Low Birthweight                                      0.0424      0.260      0.163      0.871      -0.468       0.553
+% Smokers                                             -0.2375      0.403     -0.590      0.556      -1.028       0.553
+% Adults with Obesity                                  0.0404      0.097      0.417      0.677      -0.150       0.230
+Food Environment Index                                -4.4163      3.907     -1.130      0.259     -12.088       3.255
+% Physically Inactive                                 -0.1513      0.105     -1.435      0.152      -0.358       0.056
+% With Access to Exercise Opportunities                0.0359      0.019      1.873      0.061      -0.002       0.073
+% Excessive Drinking                                  -0.2081      0.261     -0.797      0.426      -0.721       0.305
+% Driving Deaths with Alcohol Involvement             -0.0067      0.020     -0.335      0.738      -0.046       0.033
+Chlamydia Rate                                        -0.0014      0.002     -0.813      0.417      -0.005       0.002
+Teen Birth Rate                                        0.0122      0.058      0.210      0.834      -0.101       0.126
+% Uninsured 1                                          0.4891      1.020      0.480      0.632      -1.513       2.491
+Preventable Hospitalization Rate                       0.0002      0.000      0.828      0.408      -0.000       0.001
+% With Annual Mammogram                                0.0446      0.070      0.641      0.521      -0.092       0.181
+% Vaccinated                                           0.0277      0.047      0.584      0.560      -0.065       0.121
+High School Graduation Rate                           -0.1100      0.062     -1.778      0.076      -0.231       0.011
+% Some College                                         0.0660      0.056      1.187      0.236      -0.043       0.175
+# Unemployed                                          -0.0135      0.011     -1.184      0.237      -0.036       0.009
+Labor Force                                        -1.626e-05      0.001     -0.024      0.981      -0.001       0.001
+% Unemployed                                           0.3044      0.504      0.605      0.546      -0.684       1.293
+% Children in Poverty                                  0.0527      0.126      0.418      0.676      -0.195       0.301
+80th Percentile Income                              8.213e-05    9.2e-05      0.892      0.373   -9.86e-05       0.000
+20th Percentile Income                                -0.0001      0.000     -0.384      0.701      -0.001       0.001
+Income Ratio                                          -2.0698      1.610     -1.286      0.199      -5.230       1.091
+% Single-Parent Households                             0.0839      0.055      1.515      0.130      -0.025       0.193
+Social Association Rate                               -0.0148      0.059     -0.252      0.801      -0.130       0.101
+Violent Crime Rate                                    -0.0050      0.003     -1.569      0.117      -0.011       0.001
+Injury Death Rate                                     -0.0265      0.021     -1.286      0.199      -0.067       0.014
+Average Daily PM2.5                                   -0.5429      0.411     -1.321      0.187      -1.350       0.264
+Presence of Water Violation                           -1.1647      1.021     -1.141      0.254      -3.169       0.840
+% Severe Housing Problems                              0.1309      0.158      0.828      0.408      -0.179       0.441
+% Drive Alone to Work                                 -0.1870      0.072     -2.589      0.010      -0.329      -0.045
+% Long Commute - Drives Alone                          0.0473      0.046      1.029      0.304      -0.043       0.138
+Life Expectancy                                        0.0468      0.261      0.179      0.858      -0.467       0.560
+Age-Adjusted Death Rate                                0.0098      0.009      1.145      0.253      -0.007       0.027
+% Frequent Physical Distress                          -2.6540      1.191     -2.229      0.026      -4.991      -0.316
+% Frequent Mental Distress                             1.9516      1.146      1.703      0.089      -0.299       4.202
+% Adults with Diabetes                                 0.0703      0.114      0.618      0.537      -0.153       0.294
+HIV Prevalence Rate                                   -0.0036      0.004     -0.839      0.402      -0.012       0.005
+% Food Insecure                                       -0.3673      0.753     -0.488      0.626      -1.845       1.111
+% Limited Access to Healthy Foods                     -0.4387      0.351     -1.251      0.211      -1.127       0.250
+Motor Vehicle Mortality Rate                           0.0003      0.060      0.005      0.996      -0.118       0.119
+% Insufficient Sleep                                   0.3402      0.244      1.392      0.164      -0.140       0.820
+% Uninsured 2                                         -0.3163      0.746     -0.424      0.672      -1.781       1.148
+% Uninsured 3                                         -0.2121      0.347     -0.610      0.542      -0.894       0.470
+Average Grade Performance 1                           -3.8861      2.590     -1.500      0.134      -8.971       1.199
+Average Grade Performance 2                            4.0506      2.314      1.751      0.080      -0.492       8.593
+Median Household Income                            -5.027e-05      0.000     -0.424      0.671      -0.000       0.000
+% Enrolled in Free or Reduced Lunch                    0.0211      0.040      0.533      0.594      -0.057       0.099
+Segregation Index 2                                    0.0247      0.035      0.696      0.487      -0.045       0.094
+Suicide Rate (Age-Adjusted)                            0.0310      0.071      0.435      0.663      -0.109       0.171
+Firearm Fatalities Rate                                0.0965      0.093      1.037      0.300      -0.086       0.279
+Average Traffic Volume per Meter of Major Roadways    -0.0015      0.010     -0.149      0.882      -0.022       0.019
+# Homeowners                                          -0.0036      0.001     -2.835      0.005      -0.006      -0.001
+% Homeowners                                           0.1149      0.088      1.311      0.190      -0.057       0.287
+# Households with Severe Cost Burden                   0.0013      0.002      0.847      0.397      -0.002       0.004
+% Severe Housing Cost Burden                           0.2166      0.201      1.080      0.281      -0.177       0.610
+Population                                             0.0014      0.000      3.154      0.002       0.001       0.002
+% less than 18 years of age                           -0.1115      0.268     -0.416      0.677      -0.638       0.415
+% 65 and over                                         -0.2573      0.225     -1.146      0.252      -0.698       0.184
+% Black                                                1.3892      0.447      3.108      0.002       0.512       2.267
+% American Indian & Alaska Native                      1.3921      0.461      3.017      0.003       0.486       2.298
+% Asian                                                0.9222      0.477      1.935      0.053      -0.014       1.858
+% Native Hawaiian/Other Pacific Islander               1.8498      1.025      1.804      0.072      -0.163       3.863
+% Hispanic                                             1.3817      0.432      3.197      0.001       0.533       2.230
+% Non-Hispanic White                                   1.4365      0.437      3.285      0.001       0.578       2.295
+% Not Proficient in English                            0.0983      0.311      0.316      0.752      -0.512       0.708
+% Female                                              -0.3150      0.261     -1.207      0.228      -0.828       0.197
+% Rural                                                0.3274      0.208      1.571      0.117      -0.082       0.737
+Primary Care Physicians Ratio                          0.0002      0.000      0.883      0.377      -0.000       0.001
+Dentist Ratio                                       6.409e-05      0.000      0.410      0.682      -0.000       0.000
+Mental Health Provider Ratio                        6.339e-05      0.000      0.350      0.727      -0.000       0.000
+Other Primary Care Provider Ratio                      0.0002      0.000      0.814      0.416      -0.000       0.001
+Class                                                  0.6850      0.348      1.966      0.050       0.001       1.369
+==============================================================================
+Omnibus:                      318.266   Durbin-Watson:                   1.939
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5685.456
+Skew:                           1.356   Prob(JB):                         0.00
+Kurtosis:                      15.893   Cond. No.                     1.99e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.99e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
