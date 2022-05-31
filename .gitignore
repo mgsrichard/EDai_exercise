@@ -1,4 +1,5 @@
 # Byte-compiled / optimized / DLL files
+*.zip
 config.py
 *.csv
 *.xlsx
