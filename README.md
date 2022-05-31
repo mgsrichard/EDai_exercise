@@ -93,31 +93,31 @@ R-squared value – 47.0%
 
 ### 0-17% Rural
 R-squared value – 62.8%
-![rural 1 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural81_top_pvalues.png)
+![rural 1 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural8_1top_pvalues.png)
  
 ### 17-33% Rural
 R-squared value – 67.3%
-![rural 2 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural82_top_pvalues.png)
+![rural 2 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural8_2top_pvalues.png)
  
 ### 33-47% Rural
 R-squared value – 55.0%
-![rural 3 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural83_top_pvalues.png)
+![rural 3 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural8_3top_pvalues.png)
  
 ### 47-59% Rural
 R-squared value – 49.3%
-![rural 4 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural84_top_pvalues.png)
+![rural 4 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural8_4top_pvalues.png)
  
 ### 59-71% Rural
 R-squared value – 49.8%
-![rural 5 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural85_top_pvalues.png)
+![rural 5 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural8_5top_pvalues.png)
  
 ### 71-88% Rural
 R-squared value – 37.4%
-![rural 6 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural86_top_pvalues.png)
+![rural 6 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural8_6top_pvalues.png)
  
 ### 88-100% Rural
 R-squared value – 21.5%
-![rural 7 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural87_top_pvalues.pngv)
+![rural 7 sigfacs](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/rural8_7top_pvalues.png)
  
 ## Unsupervised Learning/Clustering Analysis
 ### Overview
@@ -126,7 +126,9 @@ In contrast to the linear regression and random forest models, unsupervised mode
 ### Methodology
 To create my unsupervised learning model, I first imported my preprocessed data from my random forest model. Then, as in the random forest model, I scaled the data. Next, I reduced the dimensions in the data using principal component analysis, which reduced the number of features being input into the model to 30, which accounted for about 80% of the information in the data. The next step was an elbow curve analysis which suggested that 7 was a good number of clusters to look for in the data. Finally, I fit and ran K-Means clustering model which predicted a class for each county between 0-6. 
 Results 
-The clusters that emerged from the analysis can be seen in the diagram below, or for a better (and bigger) look at the same chart, click this link to view it on Tableau Public: https://public.tableau.com/app/profile/martha.richardson/viz/JobGrowth_16536764067130/Clusters?publish=yes. 
+The clusters that emerged from the analysis can be seen in the diagram below, or for a better (and bigger) look at the same chart, click this [link](https://public.tableau.com/app/profile/martha.richardson/viz/JobGrowth_16536764067130/Clusters?publish=yes) to view it on Tableau Public. 
+ 
+![clusters tableau](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/Clusters_tableau.png)
  
 The clusters here can be used in a variety of ways. They can help you understand trends you already know about. They can be used to inform how you split data into subsets for more accurate models. I reran the multiple regression for each cluster individually, and the accuracy of the results was an improvement over the whole dataset regression for every group. Just looking at these clusters suggested to me that location is an important part of the underlying factors that influence rates of job growth. Location is very closely related to % rural, and so I decided to rerun the multiple regression with subsets based on how rural or urban a county is, and those results were the most accurate ones I got. 
  
