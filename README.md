@@ -58,8 +58,9 @@ The clusters that emerged from the analysis can be seen in the diagram below, or
  
 ![clusters tableau](https://github.com/mgsrichard/EDai_exercise/blob/main/resources/Clusters_tableau.png)
  
-The clusters here can be used in a variety of ways. They can help you understand trends you already know about. They can be used to inform how you split data into subsets for more accurate models. I reran the multiple regression for each cluster individually, and the accuracy of the results was an improvement over the whole dataset regression for every group. Just looking at these clusters suggested to me that location is an important part of the underlying factors that influence rates of job growth. Location is very closely related to % rural, and so I decided to rerun the multiple regression with subsets based on how rural or urban a county is, and those results were the most accurate ones I got. <br>
- 
+The clusters here can be used in a variety of ways. They can help you understand trends you already know about. They can be used to inform how you split data into subsets for more accurate models. I reran the multiple regression for each cluster individually, and the accuracy of the results was an improvement over the whole dataset regression for every group. Just looking at these clusters suggested to me that location is an important part of the underlying factors that influence rates of job growth. Location is very closely related to % rural, and so I decided to rerun the multiple regression with subsets based on how rural or urban a county is, and those results were the most accurate ones I got. 
+<br>
+
 Below are three scatter charts that show the average job growth rate for each class against three different measurements: average % rural, average median income, and average rate of high school graduation. The tables can help to identify some of the characteristics of the clusters, though there are dozens of other charts we could make also.
 
 ### Average Employment Growth Rate Vs. Average % Rural
